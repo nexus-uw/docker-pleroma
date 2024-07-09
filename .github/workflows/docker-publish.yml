@@ -8,7 +8,8 @@ name: Docker
 on:
   
   push:
-    branches: [ "master" ]
+    branches: [ "master" ,"auto-build"]
+    # todo - remove auto-build push branch
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
